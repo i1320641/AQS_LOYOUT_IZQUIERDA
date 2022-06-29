@@ -1,0 +1,291 @@
+html{
+    font-family: 'Acme', sans-serif; 
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+    font-size: 30px;
+}
+
+.productos p{
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    padding-left: 20%;
+}
+
+
+.row{
+    width: 100%;
+}
+
+.ejemplo{
+    background-color: blue;
+}
+
+.row20{
+    width: 20%;
+    float: left;
+}
+
+.row80{
+    width: 80%;
+    float: right;
+}
+
+.nav{
+    background-color: rgb(0, 68, 171);
+}
+
+.main{
+    background-image: url(/img/fondomain.jpg);
+    background-size: 900px;
+}
+
+.col25{
+    height: 25%;
+}
+
+.logo{
+    height: 90px;
+    width: 110px;
+    margin: 0px;
+    margin-left: 20%;
+}
+
+.itemInicio h1{
+    margin: 0px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.itemInicio{
+    padding: 30px;
+    color: white;    
+    font-family: 'Lobster', cursive;
+    background: rgb(91,90,90);
+    background: linear-gradient(180deg, rgba(91,90,90,1) 0%, rgba(70,70,70,1) 51%, rgba(34,34,34,1) 100%);
+}
+
+.itemNav{
+    padding-left: 55px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25%;
+    margin: 0px;
+}
+
+.itemNav a{
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+}
+
+.row10 h1{
+    text-decoration: underline;
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.row10{
+    height: 10%;
+}
+
+.row45{
+    height: 45%;
+}
+
+.col40{
+    width: 50%;
+    text-align: center;
+}
+
+.imgPizzas{
+    height:auto;
+    width: 400px;
+    padding-left: 25%;
+}
+
+.imgCal{
+    height:190px;
+    width: auto;
+    padding-left: 25%;
+}
+
+.pizza{
+    padding-left: 15px;
+}
+
+.calzone{
+    float: right;
+    padding-right: 15px;
+}
+
+.prod{
+    background: rgb(2,0,36);
+    background: linear-gradient(197deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
+}
+
+.nos{
+    background: rgb(131,58,180);
+    background: linear-gradient(4deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.con{
+    background: rgb(255,141,0);
+    background: linear-gradient(0deg, rgba(255,141,0,1) 0%, rgba(255,166,21,1) 100%);    
+}
+
+.itemNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.productos{
+    background-image: linear-gradient(135deg, rgba(33, 158, 248, 0.123),rgba(108, 240, 229, 0.068));
+}
+
+.nosotros{
+    background-image: linear-gradient(135deg, rgba(250, 121, 181, 0.315),rgba(247, 179, 202, 0.185));
+}
+
+.contactenos{
+    background-image: linear-gradient(135deg, rgba(255, 123, 0, 0.295),rgba(255, 230, 0, 0.274));
+}
+
+
+.seccion h1{
+    color:white;
+}
+
+.nav{
+    position: fixed;
+}
+
+.row30{
+    height: 30%;
+}
+
+.row60{
+    height: 60%;
+}
+
+form{
+    margin: 0px; 
+    height:60%; 
+    padding-left: 3%;
+}
+
+.labelF {
+    margin: 0px; 
+    height:30px; 
+}
+
+.row90{
+    height: 90%;
+}
+
+.mapa{
+    width: 80%;
+    height: 80%;
+    padding-left: 20%;
+}
+
+.main1{
+    height: 50%;
+}
+
+.main2{
+    height: 50%;
+}
+
+.main img{
+    height: 250px;
+    width: 650px;
+    margin-left: 20%;
+}
+
+.main img{
+    height: 250px;
+    width: 650px;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+.main h2{
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.main p{
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.main img:hover{
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+textarea{
+    width: 70%;
+    height: 80%;
+}
+
+.btnEnviar{
+    background-color: rgb(4, 196, 30);
+    color: white;
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 25%;
+    font-weight: bold;
+    border: 2px solid black;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.btnEnviar:hover{
+    background-color: rgb(5, 131, 5);
+    cursor: pointer;
+}
+
+.btnEnviar a{
+    margin: 0px;
+}
+
+
+
+.contbtn{
+    height: 10%;
+    padding-left: 3%;
+}
+
